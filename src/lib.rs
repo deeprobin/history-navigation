@@ -44,7 +44,7 @@ mod tests {
     }
 }
 
-use std::ops::{Index,IndexMut};
+use std::ops::{Index, IndexMut};
 
 /// History is a vector with support for go forward and go back
 pub struct History<T> {
@@ -99,7 +99,7 @@ impl<T> History<T> {
     pub fn push(&mut self, element: T) {
         let vec_i = self.vec.len();
         if self.index != vec_i {
-            let diff: usize = vec_i - self.index;  
+            let diff: usize = vec_i - self.index;
             for _ in 0..diff {
                 self.pop();
             }
