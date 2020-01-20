@@ -1,0 +1,18 @@
+[package]
+name = "history"
+description = "This crate implements a collection with data structures like we have in our browser history"
+version = "0.1.0"
+authors = ["Robin Lindner <robin@deeprobin.de>"]
+edition = "2018"
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/history"
+homepage = "https://deeprobin.de/?reference=history"
+categories = [
+    "algorithms"
+]
+keywords = [
+    "vector"
+]
+
+[dependencies]
