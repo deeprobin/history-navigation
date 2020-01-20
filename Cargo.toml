@@ -1,5 +1,5 @@
 [package]
-name = "history"
+name = "history-navigation"
 description = "This crate implements a collection with data structures like we have in our browser history"
 version = "0.1.0"
 authors = ["Robin Lindner <robin@deeprobin.de>"]
